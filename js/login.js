@@ -11,7 +11,7 @@ $("#frmAcceso").on('submit',function(e)
         var respuesta = JSON.parse(data);
         if (respuesta == 1) {
           // similar behavior as clicking on a link
-          window.location.href = "http://localhost/cnsCooperativa/dashboard.php";
+          window.location.href = "../dashboard.php";
         }
         else{
             swal({
